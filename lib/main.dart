@@ -24,6 +24,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  // TODO: #2 Add textEditingController
+
+  // TODO: #3 Add result variable
+
+  // TODO: #4 bmiStatus function
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,6 +47,7 @@ class _HomePageState extends State<HomePage> {
               color: Colors.amber,
             ),
           ),
+          // TODO: #1 Add textfield widget
         ],
       ),
     );
